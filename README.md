@@ -45,7 +45,3 @@ Use factor exposure analysis to support portfolio review, risk communication, an
 │   └── portfolio_risk_factor_modelling.ipynb
 └── README.md
 ```
-
-## Portfolio Note
-
-This is a public portfolio version prepared from academic analytics work. Student IDs, course-submission wording, and private submission details have been removed.
