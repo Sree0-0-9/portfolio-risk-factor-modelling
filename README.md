@@ -42,7 +42,3 @@ Use predictive modelling as a decision-support layer for loan pricing, while kee
 │   └── lendingclub_loan_interest_tree_regression.ipynb
 └── README.md
 ```
-
-## Portfolio Note
-
-This is a public portfolio version prepared from academic analytics work. Student IDs and course-submission wording have been removed.
