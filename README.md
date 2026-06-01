@@ -1,37 +1,48 @@
-# Portfolio Risk Factor Modelling
+# LendingClub Loan Interest Rate Modelling
 
-This project estimates portfolio risk and factor exposure for a buy-and-hold technology portfolio using simulation, monthly return construction, and the Fama-French three-factor model.
+This project explores lending data to understand borrower characteristics and model loan interest rates using tree-based regression.
 
 ## Business Problem
 
-Investors and analysts need to understand whether portfolio returns are explained by broad market, size, and value factors, and how well a factor model captures realised performance. This project builds a portfolio return series and evaluates model fit using regression-based risk factor analysis.
+Lenders need to price loans in a way that reflects borrower risk, affordability, and credit profile. This project uses LendingClub-style borrower data to investigate how loan grade, debt-to-income ratio, and other borrower attributes relate to interest rate outcomes.
 
 ## What This Project Demonstrates
 
-- Vectorized Monte Carlo simulation for a stochastic stopping-time problem
-- Buy-and-hold portfolio construction using monthly adjusted closing prices
-- Monthly return calculation and excess-return preparation
-- Fama-French three-factor model estimation
-- Regression diagnostics including fitted values, residuals, and model interpretation
-- Python-based financial analytics workflow
+- Exploratory analysis of borrower loan grades and distribution patterns
+- Data preparation for modelling, including missing-value review and feature selection
+- Conversion of borrower and loan attributes into modelling-ready arrays
+- Decision tree regression for loan interest rate prediction
+- Interpretation of model behaviour in a lending and credit-risk context
+
+## Key Findings
+
+- Borrower risk indicators such as loan grade, credit profile variables, and debt-to-income related features are important signals for interest rate variation.
+- Tree-based regression can capture non-linear relationships between borrower attributes and pricing outcomes.
+- The analysis connects model outputs back to lending judgement rather than treating prediction accuracy as the only objective.
+
+## Business Recommendation
+
+Use predictive modelling as a decision-support layer for loan pricing, while keeping human credit policy, affordability checks, and responsible lending controls in the final decision process.
 
 ## Tools Used
 
 - Python
 - pandas
 - NumPy
-- statsmodels
 - scikit-learn
 - Matplotlib
-- yfinance
 
 ## Repository Structure
 
 ```text
 .
 ├── data/
-│   └── FF3F_Monthly.csv
+│   └── loan.csv
 ├── notebooks/
-│   └── portfolio_risk_factor_modelling.ipynb
+│   └── lendingclub_loan_interest_tree_regression.ipynb
 └── README.md
 ```
+
+## Portfolio Note
+
+This is a public portfolio version prepared from academic analytics work. Student IDs and course-submission wording have been removed.
