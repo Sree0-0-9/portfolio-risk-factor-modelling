@@ -39,9 +39,11 @@ Use factor exposure analysis to support portfolio review, risk communication, an
 
 ```text
 .
-├── data/
-│   └── FF3F_Monthly.csv
-├── notebooks/
-│   └── portfolio_risk_factor_modelling.ipynb
-└── README.md
+|-- FF3F_Monthly.csv
+|-- portfolio_risk_factor_modelling.ipynb
+`-- README.md
 ```
+
+## How To Open
+
+Open `portfolio_risk_factor_modelling.ipynb` in Jupyter Notebook, JupyterLab, VS Code, or GitHub's notebook preview. Keep `FF3F_Monthly.csv` in the same folder as the notebook so the factor-model inputs load correctly.
